@@ -1,0 +1,146 @@
+/* Configurações Gerais */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+/* Fim das configurações gerais */
+
+
+/* header */
+header{
+    background-color: #303030;
+    padding: 206px 0 144px 67px;
+}
+
+header h1{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+header p{
+    font-size: 20px;
+    color: white;
+}
+/* ********** */
+
+
+/* menu informacional */
+.menu-informacional{
+    background-color: #f9f9f9;
+    padding: 95px 2%;
+}
+
+.menu-informacional .container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-informacional .box{
+    padding: 0 1%;
+}
+
+.menu-informacional .bold{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.menu-informacional p{
+    font-size: 20px;
+}
+/* ************ */
+
+/* sobre */
+.sobre{
+    padding: 80px 2%;
+}
+
+.sobre .container{
+    max-width: 1390px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.sobre h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.sobre p{
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-right: 60px;
+    line-height: 30px;
+}
+
+.sobre img{
+    max-width: 510px;
+    width: 100%;
+}
+/* ********** */
+
+/* contato */
+.contato{
+    background-color: #303030;
+    padding: 85px 2%;
+}
+
+.contato h2{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+
+.contato form{
+    max-width: 510px;
+    width: 100%;
+    margin: 50px auto 0 auto;
+}
+
+.contato form input{
+    width: 100%;
+    height: 72px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    margin-bottom: 60px;
+}
+
+.contato form button{
+    color: white;
+    background-color: #C07212;
+    text-align: center;
+    max-width: 286px;
+    width: 100%;
+    height: 74px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 30px;
+    margin: 0 auto;
+    display: block;
+    font-family: "Raleway";
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.contato form button:hover{
+    background-color: #8d530c;
+}
+/* ******** */

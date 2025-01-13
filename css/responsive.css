@@ -1,0 +1,38 @@
+@media screen and (max-width: 1024px){
+    .sobre .container{
+        flex-direction: column;
+    }
+      
+    .sobre p{
+        margin-right: 0;  
+    }
+
+    .sobre img{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 649px){
+    /* header */
+    header{
+        padding: 206px 2% 144px 2%;
+        text-align: center;
+    }
+
+    header h1{
+        font-size: 50px;
+    }
+    /* ************** */
+
+    /* menu informacional */
+    .menu-informacional .container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-informacional .box{
+        padding: 0 0;
+        margin: 30px 0;
+    }
+    /* ************ */
+}
